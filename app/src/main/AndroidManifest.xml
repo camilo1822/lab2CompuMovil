@@ -22,7 +22,8 @@
             android:label="@string/title_activity_main2"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MateriaActivity" />
-        <activity android:name=".LugaresActivity"></activity>
+        <activity android:name=".LugaresActivity" />
+        <activity android:name=".IngresarActivity"></activity>
     </application>
 
 </manifest>

@@ -23,6 +23,7 @@ public class Registro extends AppCompatActivity {
         et2= (EditText) findViewById(R.id.etuser);
         et3= (EditText) findViewById(R.id.etcontra);
         et4= (EditText) findViewById(R.id.etmail);
+        et4= (EditText) findViewById(R.id.etmail);
 
     }
     public void registrar(View view){
