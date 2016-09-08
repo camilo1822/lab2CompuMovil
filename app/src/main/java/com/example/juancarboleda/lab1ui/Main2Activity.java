@@ -87,7 +87,8 @@ public class Main2Activity extends AppCompatActivity
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
-
+            Intent ven=new Intent(this,LugaresActivity.class);
+            startActivity(ven);
         } 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
