@@ -34,7 +34,7 @@ private Cursor fila;
             String usua=fila.getString(0);
             String pass=fila.getString(1);
             if (usuario.equals(usua)&&contrasena.equals(pass)){
-                Intent ven=new Intent(this,Menu.class);
+                Intent ven=new Intent(this,Main2Activity.class);
                 startActivity(ven);
                 et1.setText("");
                 et2.setText("");
