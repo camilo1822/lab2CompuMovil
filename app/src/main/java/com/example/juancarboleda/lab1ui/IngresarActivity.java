@@ -43,7 +43,7 @@ public class IngresarActivity extends AppCompatActivity {
         db.insert("lugares",null,values);
         db.close();
 
-        Intent ven=new Intent(this,MainActivity.class);
+        Intent ven=new Intent(this,LugaresActivity.class);
         startActivity(ven);
 
     }
