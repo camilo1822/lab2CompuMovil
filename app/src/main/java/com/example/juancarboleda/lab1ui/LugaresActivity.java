@@ -1,7 +1,9 @@
 package com.example.juancarboleda.lab1ui;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -22,5 +24,10 @@ public class LugaresActivity extends AppCompatActivity {
         lista = db.llenar_lv();
         adaptador = new ArrayAdapter(this, android.R.layout.simple_list_item_1,lista);
         lv.setAdapter(adaptador);
+    }
+
+    public void registro2(View v){
+        Intent ven=new Intent(this,IngresarActivity.class);
+        startActivity(ven);
     }
 }

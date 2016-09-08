@@ -61,7 +61,7 @@
         android:layout_height="wrap_content"
         android:text="REGISTRAR"
         android:id="@+id/button4"
-        android:onClick="registrar"
+        android:onClick="ingreso"
         android:layout_below="@+id/etsitios"
         android:layout_alignParentLeft="true"
         android:layout_alignEnd="@+id/textView7" />

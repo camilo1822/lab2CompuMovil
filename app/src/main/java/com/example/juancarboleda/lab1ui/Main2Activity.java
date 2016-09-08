@@ -89,7 +89,10 @@ public class Main2Activity extends AppCompatActivity
         } else if (id == R.id.nav_slideshow) {
             Intent ven=new Intent(this,LugaresActivity.class);
             startActivity(ven);
-        } 
+        }else if (id == R.id.nav_manage) {
+            Intent ven=new Intent(this,MainActivity.class);
+            startActivity(ven);
+        }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
