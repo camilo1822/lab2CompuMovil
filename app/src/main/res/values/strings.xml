@@ -1,42 +1,6 @@
 <resources>
-    <string name="app_name">Lab1ui</string>
-    <string name="nombre">Nombres</string>
-    <string name="apellido">Apellidos</string>
-    <string name="masculino">Masculino</string>
-    <string name="femenino">Femenino</string>
-    <string name="mostrar">Mostrar</string>
-    <string name="correo">Correo Electrónico</string>
-    <string name="pais">País</string>
-    <string name="telefono">Teléfono</string>
-    <string name="direccion">Dirección</string>
-    <string name="date">Fecha de Nacimiento</string>
-    <string name="country">País de Nacimiento</string>
-    <string name="dd_mm_yy">DD/MM/YY</string>
-    <string name="configurar">Configurar</string>
-    <string name="date_button_set">Fecha</string>
-    <string name="date_label_set">Fecha</string>
-    <string name="date_view_set">Fecha</string>
-    <string name="date_selected">Fecha</string>
-    <string-array name="countries">
-        <item>Argentina</item>
-        <item>Bolivia</item>
-        <item>Colombia</item>
-        <item>Costa Rica</item>
-        <item>Cuba</item>
-        <item>Ecuador</item>
-        <item>El Salvador</item>
-        <item>Guatemala</item>
-        <item>Honduras</item>
-        <item>Mexico</item>
-        <item>Nicaragua</item>
-        <item>Panama</item>
-        <item>Paraguay</item>
-        <item>Peru</item>
-        <item>Puerto Rico</item>
-        <item>Republica Dominicana</item>
-        <item>Uruguay</item>
-        <item>Venezuela</item>
-    </string-array>
+    <string name="app_name">Lab2</string>
+   
     <string name="title_activity_main2">Main2Activity</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
