@@ -85,7 +85,8 @@ public class Main2Activity extends AppCompatActivity
             Intent ven=new Intent(this,MateriaActivity.class);
             startActivity(ven);
         } else if (id == R.id.nav_gallery) {
-
+            Intent ven=new Intent(this,PerfilActivity.class);
+            startActivity(ven);
         } else if (id == R.id.nav_slideshow) {
             Intent ven=new Intent(this,LugaresActivity.class);
             startActivity(ven);

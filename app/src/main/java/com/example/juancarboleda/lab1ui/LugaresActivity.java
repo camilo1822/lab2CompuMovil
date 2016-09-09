@@ -30,4 +30,9 @@ public class LugaresActivity extends AppCompatActivity {
         Intent ven=new Intent(this,IngresarActivity.class);
         startActivity(ven);
     }
+
+     public void volver(View v){
+        Intent ven=new Intent(this,Main2Activity.class);
+        startActivity(ven);
+    }
 }

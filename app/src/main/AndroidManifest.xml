@@ -23,7 +23,8 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MateriaActivity" />
         <activity android:name=".LugaresActivity" />
-        <activity android:name=".IngresarActivity"></activity>
+        <activity android:name=".IngresarActivity" />
+        <activity android:name=".PerfilActivity"></activity>
     </application>
 
 </manifest>

@@ -52,4 +52,32 @@ public class DBHelper  extends SQLiteOpenHelper{
         return lista;
 
     }
+
+     public String llenar_nm(){
+        String name = "";
+        SQLiteDatabase database = this.getWritableDatabase();
+        String q = "SELECT * FROM usuarios";
+        Cursor registros = database.rawQuery(q,null);
+        if(registros.moveToFirst()){
+            do{
+                name=registros.getString(2);
+            }while(registros.moveToNext());
+        }
+        return name;
+
+    }
+
+     public String llenar_cr(){
+        String correo = "";
+        SQLiteDatabase database = this.getWritableDatabase();
+        String q = "SELECT * FROM usuarios";
+        Cursor registros = database.rawQuery(q,null);
+        if(registros.moveToFirst()){
+            do{
+                correo=registros.getString(1);
+            }while(registros.moveToNext());
+        }
+        return correo;
+
+    }
 }
